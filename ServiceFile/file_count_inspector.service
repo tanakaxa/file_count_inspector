@@ -1,0 +1,7 @@
+[Unit]
+Description=Counts the number of files in the specified directory.
+
+[Service]
+ExecStart=/usr/bin/python3 file_count_inspector.py
+WorkingDirectory=/home/script-user/file_count_inspector
+User=script-user

@@ -1,0 +1,8 @@
+[Unit]
+Description=Counts the number of files in the specified directory.
+
+[Timer]
+OnCalendar= *-*-* *:0/5:00
+
+[Install]
+WantedBy=timers.target
